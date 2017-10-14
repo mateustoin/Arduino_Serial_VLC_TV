@@ -2,9 +2,20 @@
   Com este código é possível controlar um player de vídeo (**VLC**) com um controle remoto, utilizando um arduino e sensor IR para capturar os comandos.
    Através da **comunicação serial** na porta USB, o comando capturado ganham funcionalidades para o controle do player.
    
-   
+## Projeto
+Datasheet do sensor IR:
+
+![Datasheet sensor](https://github.com/mateustoin/Arduino_Serial_VLC_TV/blob/master/TSOP%20IR%20receiver.PNG)
+
+Segue em anexo o esquema do arduino.
+
+![Projeto do arduino receptor de sinais IR](https://github.com/mateustoin/Arduino_Serial_VLC_TV/blob/master/Sketch_IR_rec.png)
+
 ## Instalando
-Para utilizar a biblioteca para controle do VLC é necessário instalá-la
+Bibliotecas do IR Receiver e VLC
+### IR Receiver
+Você pode encontrar a biblioteca em: [Biblioteca IRremote](https://github.com/z3t0/Arduino-IRremote)
+
 #### Ubuntu
 >sudo apt-get update
 
