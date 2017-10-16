@@ -38,4 +38,4 @@ Necessário utilizar a flag `-lvlc`
 
 ## Arquivos
 Dentre os arquivos está o esquema do projeto para construir o projeto de receptor IR com arduino, código fonte do arduino e as classes 
-necessárias para compilar o código em C++.
+necessárias para compilar o código em C++. O código original da biblioteca ArduinoSerial se encontra [aqui](https://salilkapur.wordpress.com/2013/03/08/communicating-with-arduino-using-c/).
